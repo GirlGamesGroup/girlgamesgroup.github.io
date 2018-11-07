@@ -1,0 +1,71 @@
+#shootingstars{
+    background: url("../img/BackgroundScreen.png");
+    background-size: cover;
+}
+
+.gamebox{
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+}
+.img-headline{
+    width: 45%;
+}
+
+.margin-all {
+    padding: 10px;   
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.slides-border{
+    /*border: 5px solid white;*/
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.star-list {
+    list-style-image: url("../img/shootingstars/StarBig_happy.png");
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+img.glitter-star {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+
+  animation: glitter 2s linear 0s infinite normal;
+  -webkit-animation: glitter 2s linear 0s infinite normal;
+  -moz-animation: glitter 2s linear 0s infinite normal;
+  -ms-animation: glitter 2s linear 0s infinite normal;
+  -o-animation: glitter 2s linear 0s infinite normal;
+}
+
+@keyframes glitter {
+  0% {
+    -webkit-transform: scale(1.0);
+    opacity: 1;
+  }
+  25% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(1.0);
+    opacity: 1;
+  }
+  75% {
+    -webkit-transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 1;
+  }
+}
+
+.foreground{
+    z-index: 100;
+}

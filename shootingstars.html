@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Girl Games</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="css/shootingstar.css" rel="stylesheet">
+      
+    <!-- Lightbox-CSS -->
+    <link href="css/lightbox.css" rel="stylesheet">
+
+      
+  </head>
+
+  <body id="shootingstars">
+      
+    <!-- About -->
+    <section>
+        <div class="gamebox container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-headline" src="img/shootingstars/SchootingStarsHeadline.gif" alt="ShootingStars">
+                    <br><br><br>
+                </div>
+                <div class="col-md-4 foreground">
+                    <a href="img/shootingstars/01.gif" data-lightbox="slides" data-title="Video from presentation at Edificio FIESP"><img src="img/shootingstars/01.gif" class="margin-all"></a>
+                </div> 
+                <div class="col-lg-8 text-left">
+                    <p class="lead mb-5">Shooting Stars is a magical arcade shooter. Aim your way through this colourful adventure and make the stars happy. It is time to bring some rainbows in our life.</p>
+                    <ul class="star-list">
+                        <li><strong>Platform:</strong> Building of Edificio FIESP/Windows/Mac/IOS</li>
+                        <li><strong>Genre:</strong> Arcade Shooter</li>
+                        <li><strong>Engine:</strong> Unity</li>
+                        <li><strong>Mode:</strong> Singleplayer</li>
+                        <li><strong>Programmer:</strong> Lisa Ihde, Juliana Montes, Sol María Sanchez</li> 
+                        <li><strong>Game Artist:</strong> Alina Feindor</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row slides-border">
+                    <div class="col-md-4">
+                        <a href="img/shootingstars/02.gif" data-lightbox="slides" data-title="Demo-Video"><img src="img/shootingstars/02.gif" class="margin-all"></a>
+                    </div>  
+                    <div class="col-md-4">
+                        <a href="img/shootingstars/03.gif" data-lightbox="slides" data-title="Demo-Video with screen of input device"><img src="img/shootingstars/03.gif" class="margin-all"></a>
+                    </div>  
+                    <div class="col-md-4">
+                        <a href="img/shootingstars/04.gif" data-lightbox="slides" data-title="Demo-Video"><img src="img/shootingstars/04.gif" class="margin-all"></a>
+                    </div> 
+            </div>
+    </section>
+
+     <!-- Team -->
+
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+      
+      
+    <!-- Lightbox-JavaScript -->      
+    <script src="js/lightbox.js"></script>
+      
+      <script>  
+            const app = document.getElementById('shootingstars')
+
+            const myRand = () => {
+              let r = 50
+              while (40 < r && r < 60) {
+                r = Math.random() * 100
+              }
+              return r
+            }
+
+            for (let i = 0; i < 40; i++) {
+              const delay = Math.random() + 's';
+              const el = document.createElement('img')
+              el.src            = './img/shootingstars/StarBig_happy.png'
+              el.className      = 'glitter-star'
+              el.style.top      = myRand() + '%'
+              el.style.left     = myRand() + '%'
+              el.style.animationDelay       = delay
+              el.style.msAnimationDelay     = delay
+              el.style.webkitAnimationDelay = delay
+              el.style.monAnimationDelay    = delay
+              app.appendChild(el)
+            }
+      </script>
+
+  </body>
+
+</html>
