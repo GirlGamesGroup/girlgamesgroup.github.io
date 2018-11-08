@@ -1,0 +1,66 @@
+#moondrop{
+        background: url("../img/moondrop/newbg.png");
+    background-size: cover;
+}
+
+header{
+    margin-top: 20px;
+}
+
+.gamebox{
+    margin-top: 20px;
+    padding: 20px;
+    color: #fcdf00;
+}
+.img-headline{
+    width: 45%;
+}
+
+.margin-all {
+    padding: 10px;   
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.moon { 
+    min-width: 100%;
+}
+
+.slides-border{
+    /*border: 5px solid white;*/
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.foreground{
+    z-index: 100;
+}
+
+.description-box{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+img.moondrop {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  animation: drop 2s linear 0s infinite normal;
+  -webkit-animation: drop 2s linear 0s infinite normal;
+  -moz-animation: drop 2s linear 0s infinite normal;
+  -ms-animation: drop 2s linear 0s infinite normal;
+  -o-animation: drop 2s linear 0s infinite normal;
+}
+@keyframes drop {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+    opacity: 1;
+  }
+}

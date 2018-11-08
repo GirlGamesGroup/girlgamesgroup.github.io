@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Moondrop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="css/moondrop.css" rel="stylesheet">
+      
+    <!-- Lightbox-CSS -->
+    <link href="css/lightbox.css" rel="stylesheet">
+
+      
+  </head>
+
+  <body id="moondrop">
+    <header class="text-center">
+        <img class="img-headline" src="img/moondrop/moondrop_headline.png" alt="ShootingStars">
+    </header>
+      
+    <!-- About -->
+    <section>
+        <div class="gamebox container text-center">
+            <div class="row description-box">
+                <div class="col-lg-4">
+                    <img src="img/moondrop/moon-sheet0.png" class="moon" alt="Moon">
+                </div>
+                <div class="col-lg-8 text-left ">
+                    <p class="lead mb-5">The game is about the Moon, who's really sad for loosing a dear friend: the Earth. Humans are ruining their own house, and the Earth is dying. Help our little friend to catch all the moondrops.</p>
+                    <ul class="star-list">
+                        <li><strong>Platform:</strong> PC / Mobile</li>
+                        <li><strong>Genre:</strong> Platform / Casual</li>
+                        <li><strong>Engine:</strong> Construct 2</li>
+                        <li><strong>Mode:</strong> Singleplayer</li>
+                        <li><strong>Programmer:</strong> Nicole Benitez</li> 
+                        <li><strong>Author:</strong> Laiz Garcia, Nicole Benitez</li>
+                        <li><strong>Game Artist:</strong> Laiz Garcia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>  
+        
+        <div class="row slides-border">
+                    <div class="col-md-4">
+                        <a href="img/moondrop/image003.png" data-lightbox="slides" data-title="Screenshot from game"><img src="img/moondrop/image003.png" class="margin-all"></a>
+                    </div>  
+                    <div class="col-md-4">
+                        <a href="img/moondrop/image005.png" data-lightbox="slides" data-title="Screenshot from game"><img src="img/moondrop/image005.png" class="margin-all"></a>
+                    </div>  
+                    <div class="col-md-4">
+                        <a href="img/moondrop/image001.png" data-lightbox="slides" data-title="Screenshot from game"><img src="img/moondrop/image001.png" class="margin-all"></a>
+                    </div> 
+            </div>
+    </section>
+
+     <!-- Team -->
+
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+      
+      
+    <!-- Lightbox-JavaScript -->      
+    <script src="js/lightbox.js"></script>
+      
+      <script>  
+            const app = document.getElementById('moondrop')
+            const myRand = () => {
+              let r = 50
+              while (40 < r && r < 60) {
+                r = Math.random() * 100
+              }
+              return r
+            }
+            for (let i = 0; i < 40; i++) {
+              const delay = Math.random() + 's';
+              const el = document.createElement('img')
+              el.src            = './img/moondrop/moondrop-sheet0.png'
+              el.className      = 'moondrop'
+              el.style.top      = myRand() + '%'
+              el.style.left     = myRand() + '%'
+              el.style.animationDelay       = delay
+              el.style.msAnimationDelay     = delay
+              el.style.webkitAnimationDelay = delay
+              el.style.monAnimationDelay    = delay
+              app.appendChild(el)
+            }
+      </script>
+
+  </body>
+
+</html>
