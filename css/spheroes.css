@@ -1,0 +1,57 @@
+#spheroes{
+    background: url("../img/spheroes/gamessbagcs.png");
+    background-size: cover;
+}
+
+h1{
+    margin-top: 70px;
+    text-shadow: 
+        0 0 10px white, 
+        5px -5px 10px rgba(255, 230, 101, 1), 
+        -10px -10px 20px rgba(255, 230, 101, 1), 
+        -10px -20px 20px rgba(255, 230, 101, 1), 
+        10px -15px 20px rgba(255, 168, 77, 1), 
+        10px -25px 20px rgba(255, 168, 77, 1), 
+        15px -35px 20px rgba(255, 168, 77, 1), 
+        -10px -30px 20px rgba(214, 74, 20, 1), 
+        -15px -40px 20px rgba(214, 74, 20, 1), 
+        -20px -50px 15px rgba(214, 74, 20, 1), 
+        15px -45px 15px rgba(164, 42, 16, 1), 
+        20px -55px 15px rgba(164, 42, 16, 1), 
+        -20px -60px 15px rgba(164, 42, 16, 1), 
+        20px -65px 15px rgba(14, 7, 3, 1), 
+        25px -75px 10px rgba(14, 7, 3, 1), 
+        -25px -80px 10px rgba(14, 7, 3, 1);
+}
+
+.gamebox{
+    padding: 20px;
+    color: black;
+}
+.img-headline{
+    width: 45%;
+}
+
+.margin-all {
+    padding: 10px;   
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.slides-border{
+    /*border: 5px solid white;*/
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.foreground{
+    z-index: 100;
+}
+
+.description-box{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
