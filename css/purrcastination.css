@@ -1,0 +1,43 @@
+#spheroes{
+    background-color: #a3958c;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.gamebox{
+    padding: 20px;
+    color: black;
+}
+.img-headline{
+    width: 45%;
+}
+
+.mouse { 
+    max-width: 100%;
+}
+
+.margin-all {
+    padding: 10px;   
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.slides-border{
+    /*border: 5px solid white;*/
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.foreground{
+    z-index: 100;
+}
+
+.description-box{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
