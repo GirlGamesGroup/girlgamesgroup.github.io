@@ -1,0 +1,41 @@
+#comingoutsimulator{
+    background-color: #d294b5;
+}
+
+h1{
+    margin-top: 20px;
+    text-shadow: 2px 2px white;
+}
+
+.gamebox{
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+}
+.img-headline{
+    width: 45%;
+}
+
+.margin-all {
+    padding: 10px;   
+    max-width: 100%;
+    max-height: 350px;
+}
+
+.slides-border{
+    /*border: 5px solid white;*/
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.foreground{
+    z-index: 100;
+}
+
+.description-box{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
